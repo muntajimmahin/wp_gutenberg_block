@@ -9,28 +9,29 @@ def h3(text):
     """
     This function converts from normal text to WordPress Gutenberg h3
     """
-    code_h3 = f'<!-- wp:heading {"level":3} --><h3>{text}</h3><!-- /wp:heading -->'
+    code_h3 = f'<!-- wp:heading {{"level":3}} --><h3>{text}</h3><!-- /wp:heading -->'
     return code_h3
+print(h3('Muntajim Mahin'))
 
 def h4(text):
     """
     This function converts from normal text to WordPress Gutenberg h4
     """
-    code_h4 = f'<!-- wp:heading {"level":4} --><h4>{text}</h4><!-- /wp:heading -->'
+    code_h4 = f'<!-- wp:heading {{"level":4}} --><h4>{text}</h4><!-- /wp:heading -->'
     return code_h4
 
 def h5(text):
     """
     This function converts from normal text to WordPress Gutenberg h5
     """
-    code_h5 = f'<!-- wp:heading {"level":5} --><h5>{text}</h5><!-- /wp:heading -->'
+    code_h5 = f'<!-- wp:heading {{"level":5}} --><h5>{text}</h5><!-- /wp:heading -->'
     return code_h5
 
 def h6(text):
     """
     This function converts from normal text to WordPress Gutenberg h6
     """
-    code_h6 = f'<!-- wp:heading {"level":6} --><h6>{text}</h6><!-- /wp:heading -->'
+    code_h6 = f'<!-- wp:heading {{"level":6}} --><h6>{text}</h6><!-- /wp:heading -->'
     return code_h6
 
 def paragraph(text):
